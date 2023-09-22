@@ -1,0 +1,46 @@
+.footer-wrapper {
+  font-family: "Amazon Ember Light" !important;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  cursor: default;
+  color: #0F1111;
+  line-height: 20px;
+}
+
+.footer {
+  color: #949494;
+}
+
+.footer-main {
+  background-color: #222222;
+  color: #949494;
+  font-family: "Amazon Ember";
+  padding: 24px;
+  text-align: center;
+}
+
+.footer-main img {
+  margin: 0 auto;
+  max-height: 32px;
+  vertical-align: top;
+  max-width: 100%;
+  border: 0;
+}
+
+.footer-main p {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.footer-main p span {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-main p span a {
+  text-decoration: none;
+  color: #0f79af;
+}
+

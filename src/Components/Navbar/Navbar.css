@@ -1,0 +1,78 @@
+.navbar-container {
+  background-color: black;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-right: 10vw;
+}
+
+#logo {
+  width: 7rem;
+  height: 1.5rem;
+  object-fit: contain;
+  margin-left: 16vw;
+}
+
+.nav-list {
+  display: flex;
+  gap : 2rem;
+  align-items: center;  
+}
+
+.icons {
+  color: #aaa;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 1.3rem;
+}
+
+.left {
+  margin-left: 5rem;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+Link:link,
+Link:visited {
+  transition: color .2s ease-in-out;
+}
+
+.icons:hover:not(.not) {
+  transform: rotate(180deg);
+  transition: all .5s;
+  filter: brightness(1.2);
+  color: #fff;
+}
+
+.nav-list-item {
+  display: flex;
+}
+
+.dropdown-data {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  transition: background-color .5s ease-in-out;
+}
+
+.dropdown-data.active {
+  background-color: #000;
+}
+

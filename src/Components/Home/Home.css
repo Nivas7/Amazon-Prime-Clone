@@ -1,0 +1,135 @@
+.home-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right,#000 40%,transparent 58%),url('/src/assets/home.jpg');
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.home-main {
+  line-height: 1.8rem;
+  position: absolute;
+  inline-size: 50%;
+  left: 3vw;
+  margin-top: 5vw;;
+  color: #fff;
+  overflow-wrap: break-word;
+}
+
+.home-main h1 {
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  line-height: 3.1rem;
+  font-weight: 400;
+  cursor: default;
+}
+
+.home-main p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  cursor: default;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.home-main button {
+  color: #fff;
+  padding: 14px 20px ;
+  outline: none;
+  border: none;
+  background-color: #086b8b;
+  vertical-align: top;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.home-main button:hover,
+.home-main button:focus {
+  background-color: #00a0d6;
+}
+
+.home-wrapper-2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left, #000 40%, transparent 58%),url('/src/assets/sec.jpg');
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.home-main-2 {
+  position: absolute;
+  right: 3vw;
+  margin-top: 20vw;
+  color: #fff;
+}
+
+.home-main-2 h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 3.1rem;
+  font-weight: 400;
+  cursor: default;
+}
+
+.home-main-2 p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  cursor: default;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.home-main-2 button {
+  color: #fff;
+  padding: 14px 20px ;
+  outline: none;
+  border: none;
+  background-color: #086b8b;
+  vertical-align: top;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.home-main-2 button:hover,
+.home-main-2 button:focus {
+  background-color: #00a0d6;
+}
+
+.home-wrapper-3 {
+  background-image: linear-gradient(to left, #000 40%, transparent 58%),url('/src/assets/remote.jpg');
+  background-position: left top;
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  min-height: 70vh;
+  min-width: 300px;
+  clear: both;
+  color: #fff;
+}
+
+.home-wrapper-3 .home-main-2 {
+  margin-top: 15vw;
+}
+
+.home-wrapper-4 {
+  background-image: linear-gradient(to right, #000 40%, transparent 58%), url('/src/assets/slides.jpg');
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  clear: both;
+  color: #fff;
+  height: 80vh;
+  background-repeat: no-repeat;
+  min-width: 300px;
+  background-size: cover;
+  clear: both;
+  color: #fff;
+}
